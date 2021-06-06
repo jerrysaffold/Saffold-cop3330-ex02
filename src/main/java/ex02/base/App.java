@@ -27,10 +27,6 @@ public class App {
         System.out.print("What is the input string? ");
         //initialize string variable, then wait for user to enter a line of text.
         String inputString = input.nextLine();
-        //store length of string in int count.
-        int count = inputString.length();
-
-        String outputString = inputString + " has " + count + " characters.";
-        System.out.println(outputString);
+        System.out.println(inputString + " has " + inputString.length() + " characters.");
     }
 }
